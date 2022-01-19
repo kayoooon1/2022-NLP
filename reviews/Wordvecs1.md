@@ -11,13 +11,13 @@
     + one-hot vectors에서 **유사성(similarity)** 를 찾을 수가 없는 것   
     :gem: Solution : Learn to encode similarity in the vectors themselves!   
 
-   
+      
 # Distributional semantics (분포 의미론)   
-    * 위의 문제점을 해결하기 위한 representing words **by their context**
-    * 언어 데이터의 큰 샘플에서 분포 특성을 기반으로 언어 항목 간의 의미 론적 유사성을 정량화하고 분류   
-    * 단어 w가 text에 존재할 때, context는 fixed-size window와 함께 그 주변에 나타나는 set of words다.   
-    * Word vectors는 각 단어의 dense vector로 **dot product** 를 통해 유사성을 측정한다. Word Embeddings, Word Representation 이라고도 불린다.   
-    * Vector space는 각 vector들의 배치를 2D 공간에 투영한 것으로 정확히 투영되지는 않지만 유사한 단어가 유사한 위치에 있음을 확인 가능   
+* 위의 문제점을 해결하기 위한 representing words **by their context**
+* 언어 데이터의 큰 샘플에서 분포 특성을 기반으로 언어 항목 간의 의미 론적 유사성을 정량화하고 분류   
+* 단어 w가 text에 존재할 때, context는 fixed-size window와 함께 그 주변에 나타나는 set of words다.   
+* Word vectors는 각 단어의 dense vector로 **dot product** 를 통해 유사성을 측정한다. Word Embeddings, Word Representation 이라고도 불린다.   
+* Vector space는 각 vector들의 배치를 2D 공간에 투영한 것으로 정확히 투영되지는 않지만 유사한 단어가 유사한 위치에 있음을 확인 가능   
 
 
 
