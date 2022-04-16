@@ -1,2 +1,7 @@
 #for colab
 for_commit_from_colab_to_github.ipynb
+
+#data
+뉴스그룹분류경진대회.zip
+train.csv
+test.csv
